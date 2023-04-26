@@ -1,0 +1,583 @@
+/* ==========COMMON CSS START==========  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+body {
+    overflow-x: 0;
+}
+/* ==========COMMON CSS END==========  */
+
+
+/* ==========NAVBAR CSS START==========  */
+
+.navbar {
+    padding-top: 50px;
+    z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 35px !important;
+}
+.nav-item a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #313131;
+    position: relative;
+}
+.nav-item a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #313131;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.nav-item a:hover::after{
+    opacity: 1;
+}
+/* ==========NAVBAR CSS END==========  */
+
+
+/* ==========BANNER CSS START==========  */
+
+
+.banner-details h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #313131;
+    line-height: 120%;
+    padding-top: 118px;
+    padding-bottom: 40px;
+}
+.banner-details h1 span{
+    color: #18A7B9;
+}
+.banner-details p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B6B6B;
+    width: 541px;
+    padding-bottom: 40px;
+}
+.banner-btn button{
+    padding: 22px 78px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #18A7B9;
+    border: 1px solid #18A7B9;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    transition: all linear 0.4s;
+    margin-right: 15px;
+}
+.banner-btn{
+    position: relative;
+    z-index: 999;
+}
+.banner-btn button:hover{
+    background: #18A7B9;
+    color: #ffffff;
+    box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259), 0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407), 0px 20px 13px rgba(24, 167, 185, 0.05), 0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593), 0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+}
+.banner-counter{
+    padding-top: 90px;
+}
+.counter-item{
+    position: relative;
+    z-index: 1;
+    width: 137px;
+    margin-right: 52px;
+}
+.counter-item img {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: -1;
+}
+.counter-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #313131;
+}
+.counter-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6B6B6B;
+}
+.banner-counter{
+    display: flex;
+    width: 554px;
+}
+.banner-img {
+    position: absolute;
+    top: -75px;
+    right: -45px;
+}
+.banner-details{
+    position: relative;
+}
+.banner-details .line-shape {
+    position: absolute;
+    bottom: -380px;
+    left: -165px;
+    z-index: -1;
+}
+#banner {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+/* ==========BANNER CSS END==========  */
+
+
+
+/* ==========LOGOS CSS START==========  */
+.logos-banner{
+    background: #FAFAFA;
+    padding: 74px 0;
+    border-radius: 150px;
+    margin-bottom: 140px;
+    margin-top: 100px;
+}
+
+/* ==========LOGOS CSS END==========  */
+
+
+/* ==========CHOOSING CSS START==========  */
+#choosing{
+    margin-bottom: 140px;
+}
+.choosing-headding p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6B6B6B;
+    line-height: 28px;
+    width: 541px;
+    padding-bottom: 22px;
+    padding-top: 38px;
+}
+.choosing-headding button{
+    padding: 22px 78px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #18A7B9;
+    border: 1px solid #18A7B9;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    transition: all linear 0.4s;
+}
+.choosing-headding button:hover{
+    background: #18A7B9;
+    color: #ffffff;
+    box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259), 0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407), 0px 20px 13px rgba(24, 167, 185, 0.05), 0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593), 0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+}
+.choosing-headding h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+}
+#choosing .mb-2 {
+    margin-bottom: 7.3rem!important;
+}
+.choosing-banner img{
+    border-radius: 10px 292px 10px 10px;
+}
+.number{
+    position: relative;
+}
+.number h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #313131;
+    position: absolute;
+    top: -26px;
+    left: 29px;
+}
+.texts p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B6B6B;
+    padding-left: 63px;
+    width: 359px;
+}
+.choosing-details{
+    display: flex;
+    margin-left: 68px;
+    padding: 69px 0;
+}
+/* ==========CHOOSING CSS END==========  */
+
+
+/* ==========ENGINEER CSS START==========  */
+
+
+#engineer{
+    margin-bottom: 140px;
+}
+.common-title h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    color: #313131;
+    padding-bottom: 30px;
+}
+.common-title p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #313131;
+    padding-bottom: 80px;
+}
+.engineer-item {
+    padding: 70px 80px 60px 80px ;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+    position: relative;
+}
+.engineer-item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #313131;
+    padding-top: 22px;
+    padding-bottom: 7px;
+}
+.engineer-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.engineer-item p span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6B6B6B;
+    padding-top: 47px;
+    padding-bottom: 8px;
+    display: block;
+}
+.engineer-item a h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #18A7B9;
+}
+.engineer-item i{
+    font-size: 24px;
+    color: #F0BB00;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#engineer .mb-2 {
+    margin-bottom: 5rem!important;
+}
+.engineer-slider-buttons {
+    border-radius: 65px;
+    padding: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.eng-sldr-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eng-sldr-btn {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    margin: 0 8px;
+    transition: all linear 0.4s;
+}
+.eng-sldr-btn i{
+    color: #313131;
+}
+.eng-sldr-btn:hover{
+    background: #18A7B9;
+}
+
+/* ==========ENGINEER CSS END==========  */
+
+
+/* ==========CEO SPEECH CSS START==========  */
+#ceo-msg{
+    background: url(../images/ceo\ banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 176px;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 140px;
+}
+#ceo-msg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.ceo-banner-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    color: #FAFAFA;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ceo-banner-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FAFAFA;
+    line-height: 28px;
+}
+.ceo-banner-text p span{
+    display: block;
+    padding-top: 57px;
+}
+.ceo-banner-text{
+    position: relative;
+}
+.top {
+    position: absolute;
+    top: 35px;
+    left: -90px;
+}
+.bottom {
+    position: absolute;
+    bottom: -81px;
+    right: -75px;
+}
+/* ==========CEO SPEECH CSS END==========  */
+
+
+/* ==========CONTACT CSS START==========  */
+#contact{
+    padding-bottom: 70px;
+}
+.contact-form input{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #313131;
+    display: block;
+    margin-bottom: 20px;
+    width: 489px;
+    padding: 20px 0px 17px 24px;
+    border-radius: 7px;
+    border: none;
+    background: #F9F9F9;
+}
+.contact-form .messages{
+    padding-bottom: 153px;
+    margin-bottom: 30px;
+}
+.contact-banner img{
+    width: 100%;
+}
+/* ==========CONTACT CSS END==========  */
+
+
+/* ==========BLOG CSS START==========  */
+#blog{
+    margin-bottom: 140px;
+}
+.blog-item{
+    text-align: center;
+    position: relative;
+}
+.blog-item img{
+    border-radius: 20px;
+}
+.blog-item-text{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 292px;
+}
+.blog-item-text h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+}
+.blog-item-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.blog-item-text button {
+    padding: 22px 56px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    transition: all linear 0.4s;
+    margin-top: -23px;
+    opacity: 0;
+}
+.blog-item-text button:hover{
+    background: #18A7B9;
+    color: #ffffff;
+    border: 1px solid #18A7B9;
+    box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259), 0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407), 0px 20px 13px rgba(24, 167, 185, 0.05), 0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593), 0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+}
+.blog-item:hover .blog-item-text button {
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 59px;
+}
+/* .blog-item img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+
+/* ==========BLOG CSS END==========  */
+
+
+
+/* ==========FOOTER CSS START==========  */
+footer .common-title .banner-btn{
+    margin-bottom: 153px;
+}
+footer .common-title .banner-btn i{
+    transition: all linear 0.3s;
+}
+footer .common-title .banner-btn button:hover i{
+    margin-left: 20px;
+}
+.footer-item-heading{
+    margin-bottom: 30px;
+}
+.footer-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6B6B6B;
+    padding-bottom: 30px;
+}
+.footer-item a i{
+    background: #ffffff;
+    font-size: 28px;
+    color: #18A7B9;
+}
+.footer-item a{
+    margin-right: 16px;
+}
+.footer-item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #313131;
+}
+.footer-item p span{
+    display: block;
+    padding-top: 18px;
+}
+.footer-item input{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: #313131;
+    display: block;
+    margin-bottom: 20px;
+    width: 174px;
+    padding: 13px 0px 12px 12px;
+    border-radius: 7px;
+    border: none;
+    background: #F9F9F9;
+}
+.footer-form{
+    position: relative;
+}
+.footer-item .arrow{
+    color: #18A7B9;
+    position: absolute;
+    top: 12px;
+    right: 100px;
+}
+.footer-bottom p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    color: #C2C2C2;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #F4F4F4;
+}
+
+
+/* ==========FOOTER CSS END==========  */
